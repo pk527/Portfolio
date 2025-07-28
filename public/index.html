@@ -459,34 +459,34 @@
           </div>
         </div>
         <div class="row d-flex">
-
           <!-- Multi-Agent Simulation of Pit Stop Strategy Using Game Theory -->
           <div class="col-12 d-flex ftco-animate">
             <div class="blog-entry justify-content-end">
               <a
                 href="project3.html"
                 class="block-20"
-                style="
-                  background-image: url('images/F1-Project.png');
-                "
+                style="background-image: url('images/F1-Project.png')"
               >
               </a>
               <div class="text mt-3 float-right d-block">
                 <h3 class="heading">
                   <p>
                     <a href="project3.html"
-                      >Multi-Agent Simulation of Pit Stop Strategy Using Game Theory
+                      >Multi-Agent Simulation of Pit Stop Strategy Using Game
+                      Theory
                     </a>
                   </p>
                 </h3>
                 <p>
-                  Blended Bayesian game theory with real F1 telemetry from FastF1 API to simulate and visualize pit stop strategies, enabling 36+ scenario analyses via an interactive dashboard with payoff matrices, strategy flows, and live race simulations
+                  Blended Bayesian game theory with real F1 telemetry from
+                  FastF1 API to simulate and visualize pit stop strategies,
+                  enabling 36+ scenario analyses via an interactive dashboard
+                  with payoff matrices, strategy flows, and live
+                  race simulations
                 </p>
               </div>
             </div>
           </div>
-
-          
 
           <!-- Predicting the Virulence of Bacterial Pathogens -->
           <div class="col-12 d-flex ftco-animate">
@@ -522,9 +522,7 @@
               <a
                 href="project4.html"
                 class="block-20"
-                style="
-                  background-image: url('images/dataEngg.png');
-                "
+                style="background-image: url('images/dataEngg.png')"
               >
               </a>
               <div class="text mt-3 float-right d-block">
@@ -536,10 +534,11 @@
                   </p>
                 </h3>
                 <p>
-              Designed a scalable, cloud-native pipeline using 
-              AWS services to transform and analyze YouTube trending data, 
-              enabling dynamic dashboards with insights on engagement patterns, 
-              regional virality, and category performance                </p>
+                  Designed a scalable, cloud-native pipeline using AWS services
+                  to transform and analyze YouTube trending data, enabling
+                  dynamic dashboards with insights on engagement patterns,
+                  regional virality, and category performance
+                </p>
               </div>
             </div>
           </div>
@@ -737,4 +736,28 @@
 
     <script src="js/main.js"></script>
   </body>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDn9WuqMz3BxJMznjAmAvU4IOzSJ6Qj7Ps",
+      authDomain: "testing-project-453fb.firebaseapp.com",
+      projectId: "testing-project-453fb",
+      storageBucket: "testing-project-453fb.firebasestorage.app",
+      messagingSenderId: "218058271736",
+      appId: "1:218058271736:web:6f67bc78f8e7975d29c40d",
+      measurementId: "G-Y80HMFL9D2",
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </html>
