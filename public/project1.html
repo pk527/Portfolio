@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kanmanivishwaa - Projects</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="images/KV-ico.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+
+    <link rel="stylesheet" href="css/aos.css" />
+
+    <link rel="stylesheet" href="css/ionicons.min.css" />
+
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target"
+      id="ftco-navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Kanmanivishwaa</a>
+        <button
+          class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
+          type="button"
+          data-toggle="collapse"
+          data-target="#ftco-nav"
+          aria-controls="ftco-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="oi oi-menu"></span> Menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html#home-section" class="nav-link"
+                ><span>Home</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="index.html#about-section" class="nav-link"
+                ><span>About</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="index.html#resume-section" class="nav-link"
+                ><span>Education</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="index.html#skills-section" class="nav-link"
+                ><span>Skills</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="index.html#projects-section" class="nav-link"
+                ><span>Projects</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="index.html#contact-section" class="nav-link"
+                ><span>Contact</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section
+      class="hero-wrap js-fullheight"
+      style="background-image: url('images/bg_1.jpg')"
+      data-stellar-background-ratio="0.5"
+    >
+      <div class="overlay"></div>
+      <div class="container">
+        <div
+          class="row no-gutters slider-text js-fullheight align-items-end justify-content-center"
+        >
+          <div class="col-md-12 ftco-animate pb-5 mb-3 text-center">
+            <h1 class="mb-3 bread">My Projects</h1>
+            <p class="breadcrumbs">
+              <span class="mr-2"
+                ><a href="index.html"
+                  >Home <i class="ion-ios-arrow-forward"></i></a
+              ></span>
+              <span class="mr-2"
+                ><a href="index.html#projects-section"
+                  >Project <i class="ion-ios-arrow-forward"></i></a
+              ></span>
+              <span class="mr-2"><a href="single.html">My Projects</a></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 ftco-animate">
+            <h2 class="mb-3">
+              Predicting Bacterial Pathogen Virulence Using Machine Learning
+            </h2>
+            <p class="lead text-light">
+              Designed and implemented a predictive framework to classify the
+              severity of bacterial infections using ecological, biological, and
+              transmission-based features—shifting from taxonomy-driven
+              assumptions to data-centric risk assessment.
+            </p>
+            <p>
+              <img
+                src="images/High_Resolution_Screenshot.png"
+                alt="Pathogen ML Pipeline"
+                class="img-fluid"
+              />
+            </p>
+
+            <div class="project-description mt-5">
+              <h3 class="mb-4 text-white">📌 Project Objective</h3>
+              <p class="text-light">
+                The goal was to identify key biological and ecological factors
+                that influence pathogen virulence and to build interpretable ML
+                models capable of predicting severity levels. Moving beyond
+                taxonomic classification, the approach emphasized predictive
+                features like tissue tropism, transmission mode, and
+                human-to-human transmissibility.
+              </p>
+
+              <h3 class="text-white mt-4">🧪 Dataset & Hypothesis</h3>
+              <ul class="text-light">
+                <li>
+                  Dataset of 76 bacterial pathogens across 36 taxonomic families
+                </li>
+                <li>
+                  Severity labels defined on both binary and multi-level scales
+                </li>
+                <li>
+                  Hypothesized that indirect transmission and systemic tropism
+                  predict higher virulence
+                </li>
+                <li>
+                  Addressed data imbalance using upsampling techniques to
+                  enhance statistical validity
+                </li>
+              </ul>
+
+              <h3 class="text-white mt-4">🧠 Implementation & Modeling</h3>
+              <p class="text-light">
+                Built and evaluated four ML models using Python (scikit-learn):
+              </p>
+              <ul class="text-light">
+                <li>Support Vector Machine (SVM)</li>
+                <li>Random Forest Classifier</li>
+                <li>Gradient Boosting Classifier</li>
+                <li>Linear Regression (for multi-level targets)</li>
+              </ul>
+              <p class="text-light">
+                Feature importance highlighted immune evasion capacity, systemic
+                tissue involvement, and indirect transmission routes as critical
+                drivers of severity. Evaluation used AUC-ROC, precision, recall,
+                and F1 scores.
+              </p>
+
+              <h3 class="text-white mt-4">📈 Results & Interpretability</h3>
+              <ul class="text-light">
+                <li>
+                  <strong>Random Forest</strong> was the best performer with:
+                </li>
+                <ul>
+                  <li>
+                    Precision: <strong>0.93</strong>, Recall:
+                    <strong>0.96</strong>, F1-score: <strong>0.94</strong>, AUC:
+                    <strong>0.984</strong>
+                  </li>
+                </ul>
+                <li>
+                  Model interpretability enhanced using
+                  <strong>LIME plots</strong> and <strong>boxplots</strong>
+                </li>
+                <li>
+                  Visualizations revealed clear class separability and feature
+                  impact
+                </li>
+              </ul>
+
+              <h3 class="text-white mt-4">💡 Strategic Insights</h3>
+              <ul class="text-light">
+                <li>
+                  Taxonomy is not a reliable predictor of virulence severity
+                </li>
+                <li>
+                  Neural/renal tropism and vectorborne/environmental
+                  transmission linked to higher severity
+                </li>
+                <li>
+                  Models can inform diagnostics, surveillance, and therapeutic
+                  targeting
+                </li>
+              </ul>
+
+              <h3 class="text-white mt-4">🚀 Future Scope</h3>
+              <p class="text-light">
+                - Incorporate genomic features for enhanced accuracy<br />
+                - Expand dataset to include viral and fungal pathogens<br />
+                - Collaborate with epidemiological databases for real-time
+                application
+              </p>
+
+              <p class="text-light">
+                This project exemplifies the potential of machine learning in
+                infectious disease modeling and public health intelligence,
+                providing a scalable, interpretable foundation for predictive
+                epidemiology.
+              </p>
+            </div>
+
+            <div>
+              <h3 class="heading-sidebar">Skills Used</h3>
+              <div class="tagcloud">
+                <a href="#" class="tag-cloud-link">Python</a>
+                <a href="#" class="tag-cloud-link">SQL</a>
+                <a href="#" class="tag-cloud-link">Data visulaisation</a>
+                <a href="#" class="tag-cloud-link">Feature Selection</a>
+                <a href="#" class="tag-cloud-link"
+                  >Machine learning Model Development and validation</a
+                >
+                <a href="#" class="tag-cloud-link">Jupyter Notebook</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- .section -->
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen">
+      <svg class="circular" width="48px" height="48px">
+        <circle
+          class="path-bg"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke="#eeeeee"
+        />
+        <circle
+          class="path"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke-miterlimit="10"
+          stroke="#F96D00"
+        />
+      </svg>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
