@@ -10836,7 +10836,7 @@ h5,
 }
 .ftco-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: white !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
@@ -11015,14 +11015,14 @@ h5,
 }
 .owl-carousel.home-slider {
   position: relative;
-  height: 750px;
+  height: 550px;
   z-index: 0;
 }
 .owl-carousel.home-slider .slider-item {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 750px;
+  height: 550px;
   position: relative;
   z-index: 0;
 }
@@ -11041,7 +11041,7 @@ h5,
   opacity: 0;
 }
 .owl-carousel.home-slider .slider-item .slider-text {
-  height: 750px;
+  height: 550px;
   z-index: 0;
 }
 @media (max-width: 991.98px) {
