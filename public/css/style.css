@@ -79,6 +79,12 @@ body {
   background-color: #fff;
 }
 
+@media (min-width: 992px) {
+  body {
+    padding-top: 80px; /* Adjust this to match your navbar height */
+  }
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
@@ -10933,7 +10939,7 @@ h5,
   color: #fff;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .navbar-brand {
